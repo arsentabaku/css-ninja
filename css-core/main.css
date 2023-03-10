@@ -41,6 +41,8 @@ body {
 
 .main-nav-item {
   display: inline-block;
+  margin: 0px 10px;
+  text-decoration: none;
 }
 
 .main-nav {
@@ -48,4 +50,28 @@ body {
   width: calc(100% - 120px);
   text-align: right;
   vertical-align: middle;
+}
+
+.main-nav-item > a {
+  text-decoration: none;
+  padding: 3px 0px;
+}
+
+.main-nav-item > a:hover,
+.main-nav-item > a:active {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.main-nav-item-call-to-action a{
+  color: white;
+  background: red;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.main-nav-item-call-to-action > a:hover,
+.main-nav-item-call-to-action > a:active{
+  color: red;
+  background: white;
 }
