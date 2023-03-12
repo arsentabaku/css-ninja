@@ -78,12 +78,59 @@ body {
 }
 
 .plan {
-  background: green;
+  background: rgb(101, 158, 101);
   text-align: center;
-  list-style: none;
   width: 30%;
   padding: 16px;
   margin: 10px;
   display: inline-block;
   vertical-align: middle;
+  border-radius: 10px;
+}
+
+.plan-highlight {
+  background: green;
+  color: white;
+}
+
+.plan-highlight .plan-title {
+  color: white;
+}
+
+.plan-highlight-title {
+  background: white;
+  color: green;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.plan-features {
+  list-style: none;
+}
+
+.plan-features li {
+  padding-top: 10px;
+}
+
+.plan-title {
+  color: green;
+}
+
+.plan-price {
+  color: gray;
+}
+
+button {
+  background: black;
+  color: white;
+  font: inherit;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: white;
+  color: black;
 }
