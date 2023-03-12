@@ -15,6 +15,7 @@ body {
 
 .section-title {
   color: #2ddf5c;
+  text-align: center;
 }
 
 #product-overview h1 {
@@ -63,7 +64,7 @@ body {
   border-bottom: 2px solid white;
 }
 
-.main-nav-item-call-to-action a{
+.main-nav-item-call-to-action a {
   color: white;
   background: red;
   border-radius: 10px;
@@ -71,7 +72,18 @@ body {
 }
 
 .main-nav-item-call-to-action > a:hover,
-.main-nav-item-call-to-action > a:active{
+.main-nav-item-call-to-action > a:active {
   color: red;
   background: white;
+}
+
+.plan {
+  background: green;
+  text-align: center;
+  list-style: none;
+  width: 30%;
+  padding: 16px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: middle;
 }
