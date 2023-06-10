@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
 * {
   box-sizing: border-box;
 }
@@ -5,6 +9,11 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
+}
+
+main {
+  min-height: calc(100vh - 3.5rem - 8rem);
+  margin-top: 3.5rem;
 }
 
 .backdrop {
@@ -59,14 +68,14 @@ body {
   color: #0e4f1f;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.5rem;
+  height: 2.5rem;
   /* width: 20px; */
   display: inline-block;
   vertical-align: middle;
 }
 
 .main-header__brand img {
-  height: 2.5rem;
+  height: 100%;
   /* width: 100%; */
 }
 
@@ -205,6 +214,13 @@ body {
 .button:focus {
   outline: none;
 }
+
+.button[disabled] {
+  cursor: not-allowed;
+  border: #a1a1a1;
+  background: #ccc;
+  color: #a1a1a1;
+} 
 
 .open {
     display: block !important;
